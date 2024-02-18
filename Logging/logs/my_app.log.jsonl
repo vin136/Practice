@@ -1,0 +1,6 @@
+{"level": "DEBUG", "message": "Debug msg", "timestamp": "2024-02-18T00:09:12.932333+00:00", "logger": "root", "module": "main2", "function": "main", "line": 17, "thread_name": "MainThread"}
+{"level": "INFO", "message": "Info msg", "timestamp": "2024-02-18T00:09:12.933174+00:00", "logger": "root", "module": "main2", "function": "main", "line": 18, "thread_name": "MainThread"}
+{"level": "WARNING", "message": "Warning  msg", "timestamp": "2024-02-18T00:09:12.933229+00:00", "logger": "root", "module": "main2", "function": "main", "line": 19, "thread_name": "MainThread"}
+{"level": "ERROR", "message": "Error msg", "timestamp": "2024-02-18T00:09:12.933296+00:00", "logger": "root", "module": "main2", "function": "main", "line": 20, "thread_name": "MainThread"}
+{"level": "CRITICAL", "message": "Critical msg", "timestamp": "2024-02-18T00:09:12.933342+00:00", "logger": "root", "module": "main2", "function": "main", "line": 21, "thread_name": "MainThread"}
+{"level": "ERROR", "message": "Exception msg", "timestamp": "2024-02-18T00:09:12.933388+00:00", "logger": "root", "module": "main2", "function": "main", "line": 26, "thread_name": "MainThread", "exc_info": "Traceback (most recent call last):\n  File \"/Users/vinay/ML-projects/Practice/Logging/main2.py\", line 24, in main\n    a = 1/0\nZeroDivisionError: division by zero"}
