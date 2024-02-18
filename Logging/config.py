@@ -52,8 +52,7 @@ logging_config = {
 
 
 
-logging_config_queue = 
-{
+logging_config_queue = {
   "version": 1,
   "disable_existing_loggers": False,
   "formatters": {

@@ -10,5 +10,9 @@ For most projects create a root-logger with all the handlers and create a new lo
     - Traceback error is logged as it is,can programmatically read
 
 2. 1-stderr-file.json
-Now we log to both stdout and a file. But still exceptions can't be programmatically read from the log file. **store persistent logs in jsonl**, run main2.py for this
+Now we log to both stdout and a file. But still exceptions can't be programmatically read from the log file. 
+
+3. config.py and mylogger.py(for custom formatters and handlers). Run main2.py for testing these
+
+**store persistent logs in jsonl**, and use a queue asynch(not slow down the application)
 
